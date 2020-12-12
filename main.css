@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #050317;
+    font-family: 'Poppins', sans-serif;
+}
+.dt {
+    width: 307px;
+    margin: 50px auto;
+    display: block;
+}
+.play-img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.win-img {
+    display: block;
+    margin: auto;
+    width: 262px;
+}
+.video-wrapper {
+    position: relative;
+}
+
+.video-wrapper > video {
+    vertical-align: middle;
+    width: 85%;
+    display: block;
+    border-radius: 10px;
+    margin: 35px auto;
+}
+
+.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
+    display: none;
+}
+
+.video-overlay-play-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 10px calc(50% - 50px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0.95;
+    cursor: pointer;
+    transition: opacity 150ms;
+}
+
+.video-overlay-play-button:hover {
+    opacity: 1;
+}
+
+.video-overlay-play-button.is-hidden {
+    display: none;
+}
+.rg-button {
+    width: 220px;
+height: 44px;
+background: #F5A623;
+border-radius: 25px;
+border: none;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+.text-center {
+    text-align: center !important;
+}
+.ft {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.social-icon {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-icon li {
+    margin-right: 17px;
+    margin-left: 17px;
+}
+.line {
+    display: block;
+    margin: 12px auto;
+}
+.reo-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.st-image {
+    display: block;
+    margin: 32px auto;
+}
+.container {
+    padding: 0px 20px;
+}
+.game-img {
+    width: 139px;
+    height: 119px;
+}
+.jm-card {
+    width: 95%;
+    height: 149px;
+    border-radius: 10px;
+    border: 1px solid  #696969;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 7px 14px;
+   margin: auto;
+   position: relative;
+   box-sizing: border-box;
+}
+
+.jm-card-item {
+    margin-left: 12px;
+  
+}
+.jm-card-item .rg-button{
+   border-radius: 5px;
+   height: 35px;
+   width: 125px;
+}
+.c-title {
+font-weight: bold;
+font-size: 16px;
+margin: 0;
+}
+.c-price {
+    font-size: 19px;
+    margin: 0;
+}
+.palyer-details {
+    font-size: 12px;
+}
+.c-share {
+    position: absolute;
+    right: 15px;
+    top:10;
+}
+.spacer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.spacer-top {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.read {
+font-size: 16px;
+line-height: 163.15%;
+color: #BBBBBB;
+}
+.company-logo {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+}
+.company-logo li {
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+}
+.user-info {
+    width: 118px;
+    height: 54px;
+    background: #6F62C4;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 13px;
+}
+.testi-list {
+    padding: 0;
+    list-style: none;
+}
+.testi-list li {
+   display: flex;
+   align-items: center;
+}
+.testi-list li h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.aim-title {
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+text-align: center;
+}
+.aim-heading {
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.small-info {
+font-weight: normal;
+font-size: 12px;
+line-height: 163.15%;
+color: #BBBBBB;
+text-align: center;
+margin-top: 30px;
+}
+.por {
+    position: relative;
+    
+}
+.color-bg {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    z-index: -1;
+}
